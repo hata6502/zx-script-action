@@ -10,6 +10,8 @@
 
 > Run zx 🐚 script in GitHub Actions.
 
+[google/zx](https://github.com/google/zx)
+
 ## Usage
 
 Please see a [test](https://github.com/hata6502/zx-script-action/blob/main/.github/workflows/test.yml).
