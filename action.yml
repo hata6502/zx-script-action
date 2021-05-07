@@ -1,8 +1,8 @@
 name: zx-script
 description: Run zx 🐚 script in GitHub Actions.
-#branding:
-#  icon: alert-circle
-#  color: red
+branding:
+  icon: dollar-sign
+  color: gray-dark
 inputs:
   script:
     default:
