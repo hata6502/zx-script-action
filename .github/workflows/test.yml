@@ -1,0 +1,11 @@
+on:
+  - push
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: hata6502/zx-action@main
+        with:
+          script: |
+            console.log('test');
+            await $`echo test`;

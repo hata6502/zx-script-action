@@ -1,0 +1,19 @@
+name: zx
+description: zx 🐚 script action.
+branding:
+  icon: alert-circle
+  color: red
+inputs:
+  script:
+    default:
+runs:
+  using: composite
+  steps:
+    - run: |
+        npx zx << "ZX_ACTION_EOF"
+        // https://github.com/google/zx/issues/20
+        $.shell = '/bin/bash'
+
+        ${{inputs.script}}
+        ZX_ACTION_EOF
+      shell: bash

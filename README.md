@@ -1,2 +1,3 @@
 # zx-action
-zx script action.
+
+zx 🐚 script action.
