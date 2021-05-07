@@ -4,6 +4,7 @@ jobs:
   test:
     runs-on: ubuntu-20.04
     steps:
+        # Latest release: hata6502/zx-action@v1.1.0
       - uses: hata6502/zx-action@main
         with:
           script: |

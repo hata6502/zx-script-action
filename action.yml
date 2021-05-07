@@ -1,5 +1,5 @@
 name: zx
-description: zx 🐚 script action.
+description: Run zx 🐚 script in GitHub Actions.
 branding:
   icon: alert-circle
   color: red
@@ -10,7 +10,7 @@ runs:
   using: composite
   steps:
     - run: |
-        npx zx << "ZX_ACTION_EOF"
+        npx zx@1.1.0 << "ZX_ACTION_EOF"
         // https://github.com/google/zx/issues/20
         $.shell = '/bin/bash'
 

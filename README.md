@@ -1,5 +1,3 @@
-# zx-action
-
 <h1 align="center">Welcome to zx-action 👋</h1>
 <p>
   <a href="https://github.com/hata6502/zx-action/blob/main/LICENSE" target="_blank">
@@ -10,7 +8,7 @@
   </a>
 </p>
 
-> zx 🐚 script action.
+> Run zx 🐚 script in GitHub Actions.
 
 ## Usage
 
