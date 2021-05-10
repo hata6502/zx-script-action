@@ -10,10 +10,7 @@ runs:
   using: composite
   steps:
     - run: |
-        npx zx@1.1.0 << "1d18af1b-6aa5-0661-b706-4fab507ae7b0"
-        // https://github.com/google/zx/issues/20
-        $.shell = '/bin/bash'
-
+        npx zx@1.2.2 << "1d18af1b-6aa5-0661-b706-4fab507ae7b0"
         ${{inputs.script}}
         1d18af1b-6aa5-0661-b706-4fab507ae7b0
       shell: bash
