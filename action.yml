@@ -10,7 +10,7 @@ runs:
   using: composite
   steps:
     - run: |
-        npx zx@4.1.1 << "1d18af1b-6aa5-0661-b706-4fab507ae7b0"
+        npx zx@5.2.0 << "1d18af1b-6aa5-0661-b706-4fab507ae7b0"
         ${{inputs.script}}
         1d18af1b-6aa5-0661-b706-4fab507ae7b0
       shell: bash
